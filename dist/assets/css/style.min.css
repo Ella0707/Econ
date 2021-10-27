@@ -530,8 +530,10 @@ input[type="number"] {
 .dropdown a:hover {
   background-color: #ddd; }
 
-.show {
-  display: block; }
+.open {
+  display: block;
+  position: relative;
+  margin-bottom: 5rem; }
 
 .box {
   display: flex;
