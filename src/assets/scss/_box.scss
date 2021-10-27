@@ -1,0 +1,53 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+
+    width: 34.4rem;
+    padding: 0.6rem 5.6rem 3.1rem 5.6rem;
+
+    border: 1px solid red;
+
+    margin-bottom: 3.5rem;
+
+    &:not(:nth-child(3n)) {
+        margin-right: 3.5rem;
+    }
+
+
+    &__img-wrap {
+        margin-bottom: 3.8rem;
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 600;
+
+        margin-bottom: 4.4rem;
+    }
+
+    &__price {
+        font-size: 2.0rem;
+        font-weight: 600;
+    }
+
+    &__price-sup {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+                        // <div class="content__product-box box">
+                        //     <div><img src="./assets/images/box-img1.png" alt=""></div>
+                        //     <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                        //     <div class="box__price">4 250</div>
+                        //     <input class="box__coat" type="button" value="">
+                        // </div>

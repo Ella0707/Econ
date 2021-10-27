@@ -1,0 +1,711 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot");
+    src: local("Euclid Circular A Bold"), local("EuclidCircularA-Bold"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-Light.eot");
+  src: local("Euclid Circular A Light"), local("EuclidCircularA-Light"), url("../fonts/EuclidCircularA/EuclidCircularA-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Light.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Light.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.eot");
+  src: local("Euclid Circular A Bold Italic"), local("EuclidCircularA-BoldItalic"), url("../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-LightItalic.eot");
+  src: local("Euclid Circular A Light Italic"), local("EuclidCircularA-LightItalic"), url("../fonts/EuclidCircularA/EuclidCircularA-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-LightItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-LightItalic.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-Regular.eot");
+  src: local("Euclid Circular A Regular"), local("EuclidCircularA-Regular"), url("../fonts/EuclidCircularA/EuclidCircularA-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Regular.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Regular.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.eot");
+  src: local("Euclid Circular A SemiBold"), local("EuclidCircularA-SemiBold"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-Medium.eot");
+  src: local("Euclid Circular A Medium"), local("EuclidCircularA-Medium"), url("../fonts/EuclidCircularA/EuclidCircularA-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Medium.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Medium.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-Italic.eot");
+  src: local("Euclid Circular A Italic"), local("EuclidCircularA-Italic"), url("../fonts/EuclidCircularA/EuclidCircularA-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Italic.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Italic.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.eot");
+  src: local("Euclid Circular A SemiBold Italic"), local("EuclidCircularA-SemiBoldItalic"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.eot");
+  src: local("Euclid Circular A Medium Italic"), local("EuclidCircularA-MediumItalic"), url("../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Black Oblique';
+  src: url("../fonts/font/URWGeometricExt-BlackOblique.eot");
+  src: local("URW Geometric Extended Black Oblique"), local("URWGeometricExt-BlackOblique"), url("../fonts/font/URWGeometricExt-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-BlackOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-BlackOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Heavy Oblique';
+  src: url("../fonts/font/URWGeometricExt-HeavyOblique.eot");
+  src: local("URW Geometric Extended Heavy Oblique"), local("URWGeometricExt-HeavyOblique"), url("../fonts/font/URWGeometricExt-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-HeavyOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-HeavyOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-HeavyOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra';
+  src: url("../fonts/font/URWGeometricExt-ExtraBold.eot");
+  src: local("URW Geometric Extended Extra Bold"), local("URWGeometricExt-ExtraBold"), url("../fonts/font/URWGeometricExt-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-ExtraBold.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-ExtraBold.woff") format("woff"), url("../fonts/font/URWGeometricExt-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Heavy.eot");
+  src: local("URW Geometric Extended Heavy"), local("URWGeometricExt-Heavy"), url("../fonts/font/URWGeometricExt-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Heavy.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Heavy.woff") format("woff"), url("../fonts/font/URWGeometricExt-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Light Oblique';
+  src: url("../fonts/font/URWGeometricExt-LightOblique.eot");
+  src: local("URW Geometric Extended Light Oblique"), local("URWGeometricExt-LightOblique"), url("../fonts/font/URWGeometricExt-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-LightOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-LightOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra';
+  src: url("../fonts/font/URWGeometricExt-ExtraLight.eot");
+  src: local("URW Geometric Extended Extra Light"), local("URWGeometricExt-ExtraLight"), url("../fonts/font/URWGeometricExt-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-ExtraLight.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-ExtraLight.woff") format("woff"), url("../fonts/font/URWGeometricExt-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra Bold Oblique';
+  src: url("../fonts/font/URWGeometricExt-ExtraBoldOblique.eot");
+  src: local("URW Geometric Extended Extra Bold Oblique"), local("URWGeometricExt-ExtraBoldOblique"), url("../fonts/font/URWGeometricExt-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-ExtraBoldOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Bold Oblique';
+  src: url("../fonts/font/URWGeometricExt-BoldOblique.eot");
+  src: local("URW Geometric Extended Bold Oblique"), local("URWGeometricExt-BoldOblique"), url("../fonts/font/URWGeometricExt-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-BoldOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-BoldOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Bold.eot");
+  src: local("URW Geometric Extended Bold"), local("URWGeometricExt-Bold"), url("../fonts/font/URWGeometricExt-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Bold.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Bold.woff") format("woff"), url("../fonts/font/URWGeometricExt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra Light Oblique';
+  src: url("../fonts/font/URWGeometricExt-ExtraLightOblique.eot");
+  src: local("URW Geometric Extended Extra Light Oblique"), local("URWGeometricExt-ExtraLightOblique"), url("../fonts/font/URWGeometricExt-ExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-ExtraLightOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-ExtraLightOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-ExtraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Black.eot");
+  src: local("URW Geometric Extended Black"), local("URWGeometricExt-Black"), url("../fonts/font/URWGeometricExt-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Black.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Black.woff") format("woff"), url("../fonts/font/URWGeometricExt-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Thin.eot");
+  src: local("URW Geometric Extended Thin"), local("URWGeometricExt-Thin"), url("../fonts/font/URWGeometricExt-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Thin.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Thin.woff") format("woff"), url("../fonts/font/URWGeometricExt-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Thin Oblique';
+  src: url("../fonts/font/URWGeometricExt-ThinOblique.eot");
+  src: local("URW Geometric Extended Thin Oblique"), local("URWGeometricExt-ThinOblique"), url("../fonts/font/URWGeometricExt-ThinOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-ThinOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-ThinOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-ThinOblique.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Regular.eot");
+  src: local("URW Geometric Extended"), local("URWGeometricExt-Regular"), url("../fonts/font/URWGeometricExt-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Regular.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Regular.woff") format("woff"), url("../fonts/font/URWGeometricExt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Semi';
+  src: url("../fonts/font/URWGeometricExt-SemiBold.eot");
+  src: local("URW Geometric Extended Semi Bold"), local("URWGeometricExt-SemiBold"), url("../fonts/font/URWGeometricExt-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-SemiBold.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-SemiBold.woff") format("woff"), url("../fonts/font/URWGeometricExt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Semi Bold Oblique';
+  src: url("../fonts/font/URWGeometricExt-SemiBoldOblique.eot");
+  src: local("URW Geometric Extended Semi Bold Oblique"), local("URWGeometricExt-SemiBoldOblique"), url("../fonts/font/URWGeometricExt-SemiBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-SemiBoldOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-SemiBoldOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-SemiBoldOblique.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Light.eot");
+  src: local("URW Geometric Extended Light"), local("URWGeometricExt-Light"), url("../fonts/font/URWGeometricExt-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Light.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Light.woff") format("woff"), url("../fonts/font/URWGeometricExt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+  src: url("../fonts/font/URWGeometricExt-Medium.eot");
+  src: local("URW Geometric Extended Medium"), local("URWGeometricExt-Medium"), url("../fonts/font/URWGeometricExt-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-Medium.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-Medium.woff") format("woff"), url("../fonts/font/URWGeometricExt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Oblique';
+  src: url("../fonts/font/URWGeometricExt-RegularOblique.eot");
+  src: local("URW Geometric Extended Oblique"), local("URWGeometricExt-RegularOblique"), url("../fonts/font/URWGeometricExt-RegularOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-RegularOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-RegularOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-RegularOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Medium Oblique';
+  src: url("../fonts/font/URWGeometricExt-MediumOblique.eot");
+  src: local("URW Geometric Extended Medium Oblique"), local("URWGeometricExt-MediumOblique"), url("../fonts/font/URWGeometricExt-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/font/URWGeometricExt-MediumOblique.woff2") format("woff2"), url("../fonts/font/URWGeometricExt-MediumOblique.woff") format("woff"), url("../fonts/font/URWGeometricExt-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Euclid Circular A', sans-serif;
+    font-size: 0.520835vw;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-animation: bugfix infinite 1s;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-style: normal;
+    font-weight: normal;
+    -webkit-animation: bugfix infinite 1s;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    color: #2B2E34;
+    background-color: #F8F8F8;
+}
+
+input,
+textarea {
+    -webkit-animation: bugfix infinite 1s;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: unset;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input,
+a,
+textarea {
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:focus,
+  input:focus,
+  a:focus,
+  textarea:focus {
+    outline: none;
+}
+
+button:active,
+  input:active,
+  a:active,
+  textarea:active {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    padding: 0;
+    background-color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 150rem;
+    margin: 0 auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+@media (max-width: 48em) {
+    html {
+        font-size: 5px;
+        font-size: 1.5625vw;
+        font-size: 1.5625vw;
+        -webkit-text-size-adjust: none;
+    }
+
+    body {
+        -webkit-text-size-adjust: none;
+    }
+
+    .container {
+        padding: 0 3rem;
+        width: 100%;
+    }
+}
+
+.header__inner {
+    margin-top: 3rem;
+}
+
+.header__top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 5.5rem;
+}
+
+.header__search {
+    width: 85.1rem;
+    height: 5.4rem;
+}
+
+.header__personal-list {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header__personal-item:not(:last-child) {
+    margin-right: 3.6rem;
+}
+
+.header__down {
+    margin-bottom: 3.2rem;
+}
+
+.header__list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.header__item {
+    position: relative;
+}
+
+.header__item:nth-child(1) {
+    margin-left: 3.8rem;
+}
+
+.header__item:nth-child(1)::before {
+    content: "";
+    background-image: url(./../images/location-icon.png);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.3rem;
+    left: -3.5rem;
+}
+
+.header__item:nth-child(2)::before {
+    content: "";
+    background-image: url(./../images/phone-icon.png);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.3rem;
+    left: -3.5rem;
+}
+
+.header__item:nth-child(3)::before {
+    content: "";
+    background-image: url(./../images/mail-icon.png);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.6rem;
+    left: -3.8rem;
+}
+
+.header__item:nth-child(4)::before {
+    content: "";
+    background-image: url(./../images/pencil-icon.png);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.3rem;
+    left: -3.5rem;
+}
+
+.header__item:nth-child(5)::before {
+    content: "";
+    background-image: url(./../images/headset-icon.png);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -0.3rem;
+    left: -3.5rem;
+}
+
+.main {
+    background-image: linear-gradient(90deg, #1DBCD1 0%, #3DDCF1 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main__banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 20rem 0 20rem;
+    padding: 8.2rem 0 6.6rem 0;
+}
+
+.main__text-wrap {
+    width: 58rem;
+    position: relative;
+}
+
+.main__text-wrap::after {
+    content: "";
+    background-image: url(./../images/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 86rem;
+    height: 70rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(50%, -15%);
+    transform: translate(50%, -15%);
+}
+
+.main__heading {
+    color: #FFFFFF;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.3rem;
+    margin-bottom: 2rem;
+}
+
+.main__about {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+.main__btn {
+    width: 28.2rem;
+    height: 7.8rem;
+    background-color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: end;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 5rem;
+    position: relative;
+}
+
+.main__btn::before {
+    content: "";
+    background-image: url(./../images/btn-pseudoelement.png);
+    background-repeat: no-repeat;
+    width: 41rem;
+    height: 4rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 2.5rem;
+}
+
+.content__inner {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.content__product-inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.filter__top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.filter__content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.filter__select:optional {
+    width: 178px;
+    height: 33px;
+    border-color: #D7D9DF;
+    outline: #D7D9DF;
+    background-image: url(./../images/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 15px;
+}
+
+.filter__option:hover {
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.checkselect {
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+    text-align: left;
+}
+
+.checkselect-control {
+    position: relative;
+    padding: 0 !important;
+}
+
+.checkselect-control select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.checkselect-over {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.checkselect-popup {
+    display: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    border: 1px solid #dadada;
+    border-top: none;
+    background: #fff;
+    z-index: 9999;
+    overflow: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkselect label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 4px 6px 4px 25px;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.1;
+    cursor: pointer;
+}
+
+.checkselect-popup input {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.checkselect-popup label:hover {
+    background: #03a2ff;
+    color: #fff;
+}
+
+.checkselect-popup fieldset {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.checkselect-popup fieldset input {
+    left: 15px;
+}
+
+.checkselect-popup fieldset label {
+    padding-left: 32px;
+}
+
+.checkselect-popup legend {
+    display: block;
+    margin: 0;
+    padding: 5px 8px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.1;
+}

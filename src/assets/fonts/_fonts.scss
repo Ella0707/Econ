@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-Bold.eot');
+    src: local('Euclid Circular A Bold'), local('EuclidCircularA-Bold'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Bold.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Bold.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-Light.eot');
+    src: local('Euclid Circular A Light'), local('EuclidCircularA-Light'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Light.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Light.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.eot');
+    src: local('Euclid Circular A Bold Italic'), local('EuclidCircularA-BoldItalic'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-LightItalic.eot');
+    src: local('Euclid Circular A Light Italic'), local('EuclidCircularA-LightItalic'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-LightItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-LightItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-Regular.eot');
+    src: local('Euclid Circular A Regular'), local('EuclidCircularA-Regular'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Regular.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Regular.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-SemiBold.eot');
+    src: local('Euclid Circular A SemiBold'), local('EuclidCircularA-SemiBold'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBold.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBold.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-Medium.eot');
+    src: local('Euclid Circular A Medium'), local('EuclidCircularA-Medium'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Medium.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Medium.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-Italic.eot');
+    src: local('Euclid Circular A Italic'), local('EuclidCircularA-Italic'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Italic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Italic.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.eot');
+    src: local('Euclid Circular A SemiBold Italic'), local('EuclidCircularA-SemiBoldItalic'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.eot');
+    src: local('Euclid Circular A Medium Italic'), local('EuclidCircularA-MediumItalic'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.woff2') format('woff2'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.woff') format('woff'),
+        url('../fonts/EuclidCircularA/EuclidCircularA-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'URW Geometric Extended Black Oblique';
+    src: url('../fonts/font/URWGeometricExt-BlackOblique.eot');
+    src: local('URW Geometric Extended Black Oblique'), local('URWGeometricExt-BlackOblique'),
+        url('../fonts/font/URWGeometricExt-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-BlackOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-BlackOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Heavy Oblique';
+    src: url('../fonts/font/URWGeometricExt-HeavyOblique.eot');
+    src: local('URW Geometric Extended Heavy Oblique'), local('URWGeometricExt-HeavyOblique'),
+        url('../fonts/font/URWGeometricExt-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-HeavyOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-HeavyOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-HeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra';
+    src: url('../fonts/font/URWGeometricExt-ExtraBold.eot');
+    src: local('URW Geometric Extended Extra Bold'), local('URWGeometricExt-ExtraBold'),
+        url('../fonts/font/URWGeometricExt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-ExtraBold.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-ExtraBold.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Heavy.eot');
+    src: local('URW Geometric Extended Heavy'), local('URWGeometricExt-Heavy'),
+        url('../fonts/font/URWGeometricExt-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Heavy.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Heavy.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Light Oblique';
+    src: url('../fonts/font/URWGeometricExt-LightOblique.eot');
+    src: local('URW Geometric Extended Light Oblique'), local('URWGeometricExt-LightOblique'),
+        url('../fonts/font/URWGeometricExt-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-LightOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-LightOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra';
+    src: url('../fonts/font/URWGeometricExt-ExtraLight.eot');
+    src: local('URW Geometric Extended Extra Light'), local('URWGeometricExt-ExtraLight'),
+        url('../fonts/font/URWGeometricExt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-ExtraLight.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra Bold Oblique';
+    src: url('../fonts/font/URWGeometricExt-ExtraBoldOblique.eot');
+    src: local('URW Geometric Extended Extra Bold Oblique'), local('URWGeometricExt-ExtraBoldOblique'),
+        url('../fonts/font/URWGeometricExt-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-ExtraBoldOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-ExtraBoldOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Bold Oblique';
+    src: url('../fonts/font/URWGeometricExt-BoldOblique.eot');
+    src: local('URW Geometric Extended Bold Oblique'), local('URWGeometricExt-BoldOblique'),
+        url('../fonts/font/URWGeometricExt-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-BoldOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-BoldOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Bold.eot');
+    src: local('URW Geometric Extended Bold'), local('URWGeometricExt-Bold'),
+        url('../fonts/font/URWGeometricExt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Bold.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Bold.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Extra Light Oblique';
+    src: url('../fonts/font/URWGeometricExt-ExtraLightOblique.eot');
+    src: local('URW Geometric Extended Extra Light Oblique'), local('URWGeometricExt-ExtraLightOblique'),
+        url('../fonts/font/URWGeometricExt-ExtraLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-ExtraLightOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-ExtraLightOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-ExtraLightOblique.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Black.eot');
+    src: local('URW Geometric Extended Black'), local('URWGeometricExt-Black'),
+        url('../fonts/font/URWGeometricExt-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Black.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Black.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Thin.eot');
+    src: local('URW Geometric Extended Thin'), local('URWGeometricExt-Thin'),
+        url('../fonts/font/URWGeometricExt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Thin.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Thin.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Thin Oblique';
+    src: url('../fonts/font/URWGeometricExt-ThinOblique.eot');
+    src: local('URW Geometric Extended Thin Oblique'), local('URWGeometricExt-ThinOblique'),
+        url('../fonts/font/URWGeometricExt-ThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-ThinOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-ThinOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Regular.eot');
+    src: local('URW Geometric Extended'), local('URWGeometricExt-Regular'),
+        url('../fonts/font/URWGeometricExt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Regular.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Regular.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Semi';
+    src: url('../fonts/font/URWGeometricExt-SemiBold.eot');
+    src: local('URW Geometric Extended Semi Bold'), local('URWGeometricExt-SemiBold'),
+        url('../fonts/font/URWGeometricExt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-SemiBold.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-SemiBold.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Semi Bold Oblique';
+    src: url('../fonts/font/URWGeometricExt-SemiBoldOblique.eot');
+    src: local('URW Geometric Extended Semi Bold Oblique'), local('URWGeometricExt-SemiBoldOblique'),
+        url('../fonts/font/URWGeometricExt-SemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-SemiBoldOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-SemiBoldOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-SemiBoldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Light.eot');
+    src: local('URW Geometric Extended Light'), local('URWGeometricExt-Light'),
+        url('../fonts/font/URWGeometricExt-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Light.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Light.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended';
+    src: url('../fonts/font/URWGeometricExt-Medium.eot');
+    src: local('URW Geometric Extended Medium'), local('URWGeometricExt-Medium'),
+        url('../fonts/font/URWGeometricExt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-Medium.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-Medium.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Oblique';
+    src: url('../fonts/font/URWGeometricExt-RegularOblique.eot');
+    src: local('URW Geometric Extended Oblique'), local('URWGeometricExt-RegularOblique'),
+        url('../fonts/font/URWGeometricExt-RegularOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-RegularOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-RegularOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-RegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric Extended Medium Oblique';
+    src: url('../fonts/font/URWGeometricExt-MediumOblique.eot');
+    src: local('URW Geometric Extended Medium Oblique'), local('URWGeometricExt-MediumOblique'),
+        url('../fonts/font/URWGeometricExt-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font/URWGeometricExt-MediumOblique.woff2') format('woff2'),
+        url('../fonts/font/URWGeometricExt-MediumOblique.woff') format('woff'),
+        url('../fonts/font/URWGeometricExt-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+$urw: 'URW Geometric Extended';

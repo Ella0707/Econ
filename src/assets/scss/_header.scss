@@ -1,0 +1,119 @@
+.header {
+    &__inner {
+        margin-top: 3rem;
+    }
+
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 5.5rem;
+    }
+
+    &__search {
+        width: 85.1rem;
+        height: 5.4rem;
+    }
+
+    &__personal-list {
+        display: flex;
+    }
+
+    &__personal-item:not(:last-child) {
+        margin-right: 3.6rem;
+    }
+
+
+    &__down {
+        margin-bottom: 3.2rem;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__item:nth-child(1) {
+        margin-left: 3.8rem;
+
+
+        &::before {
+            content: "";
+            background-image: url(./../images/location-icon.png);
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+
+            position: absolute;
+            top: -0.3rem;
+            left: -3.5rem;
+        }
+    }
+
+    &__item:nth-child(2) {
+        &::before {
+            content: "";
+            background-image: url(./../images/phone-icon.png);
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+
+            position: absolute;
+            top: -0.3rem;
+            left: -3.5rem;
+        }
+    }
+
+
+    &__item:nth-child(3) {
+        &::before {
+            content: "";
+            background-image: url(./../images/mail-icon.png);
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+
+            position: absolute;
+            top: -0.6rem;
+            left: -3.8rem;
+        }
+    }
+
+    &__item:nth-child(4) {
+        &::before {
+            content: "";
+            background-image: url(./../images/pencil-icon.png);
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+
+            position: absolute;
+            top: -0.3rem;
+            left: -3.5rem;
+        }
+    }
+
+    &__item:nth-child(5) {
+        &::before {
+            content: "";
+            background-image: url(./../images/headset-icon.png);
+            background-repeat: no-repeat;
+            width: 4rem;
+            height: 4rem;
+
+            position: absolute;
+            top: -0.3rem;
+            left: -3.5rem;
+        }
+    }
+}

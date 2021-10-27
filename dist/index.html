@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>Отопительное оборудование</title>
+</head>
+
+<body>
+
+
+    <!-- HEADER  -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="header__top">
+                    <a class="header__btn" href="#">
+                        <img class="header__btn-img" src="./assets/images/burger-icon.png" alt="">
+                    </a>
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-img" src="./assets/images/logo-icon.png" alt="">
+                    </a>
+                    <input class="header__search" type="text">
+                    <ul class="header__personal-list">
+                        <li class="header__personal-item">
+                            <a class="header__personal-link" href="#">
+                                <img class="header__personal-img" src="./assets/images/caar-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="header__personal-item">
+                            <a class="header__personal-link" href="#">
+                                <img class="header__personal-img" src="./assets/images/user-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="header__personal-item">
+                            <a class="header__personal-link" href="#">
+                                <img class="header__personal-img" src="./assets/images/bag-icon.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__down">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="#">Екатеринбург</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="tel: +74955063650">+7 (495) 506-36-50</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">office@uconerfo.ru</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Заявка на расчет</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- MAIN  -->
+    <section class="main">
+        <div class="main__banner">
+            <div class="main__text-wrap">
+                <div class="main__heading"> Дозаторы и антисептики</div>
+                <div class="main__about">Устанавливаются в общественных местах для предотвращения
+                    распространения вирусов микробов</div>
+            </div>
+
+            <a class="main__btn" href="">Подробнее</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <ul class="content__breadcrumb">
+                <li class="content__breadcrumb-item">
+                    <a class="content__breadcrumb-link" href="">Главная</a>
+                </li>
+                <li class="content__breadcrumb-item">
+                    <a class="content__breadcrumb-link" href="">Отопительное оборудование</a>
+                </li>
+            </ul>
+
+
+
+            <div class="content__inner">
+
+                <div class="content__filter filter">
+                    <div class="filter__top">
+                        <div class="filter__title">Фильтры</div>
+                        <a class="filter__link">Сбросить</a>
+                    </div>
+
+                    <div class="filter__content">
+
+                        <div class="filter__select dropdown-checkbox form-group">   
+                            <label class="label-title">Отопительное оборудование</label>
+                            <ul>
+                                <li><label><input type="checkbox" name="type[]">Радиаторы отопления</label></li>
+                                <li><label><input type="checkbox" name="type[]">Конвекторы отопления</label></li>
+                                <li><label><input type="checkbox" name="type[]">Полотенцесушители</label></li>
+                                <li><label><input type="checkbox" name="type[]">Арматура для радиаторов</label></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Отопительное оборудование</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <ul>
+                                    <li><label><input type="checkbox" name="type[]">Радиаторы отопления</label></li>
+                                    <li><label><input type="checkbox" name="type[]">Конвекторы отопления</label></li>
+                                    <li><label><input type="checkbox" name="type[]">Полотенцесушители</label></li>
+                                    <li><label><input type="checkbox" name="type[]">Арматура для радиаторов</label></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                   
+
+                        <select class="filter__select" name="Бренд" id="">
+                            <option class="filter__option" value="">Purmo</option>
+                            <option class="filter__option" value="">Irsap</option>
+                            <option class="filter__option" value="">Terma</option>
+                            <option class="filter__option" value="">Loten</option>
+                            <option class="filter__option" value="">Guardo</option>
+                        </select>
+
+                        <div class="filter__range-wrap">
+                            <div class="filter__label">Цена</div>
+                            <input type="range" min="3000" max="23000" value="5000" name="" id="">
+                            <div class="filter__value">3000</div>
+                            <div class="filter__value">23000</div>
+                        </div>
+
+                        <select class="filter__select" name="Межосетевое расстояние" id="">
+                            <option class="filter__option" value="">20 см</option>
+                            <option class="filter__option" value="">35 см</option>
+                            <option class="filter__option" value="">50 см</option>
+                        </select>
+
+                        <select class="filter__select" name="Площадь отопления" id="">
+                            <option class="filter__option" value="">Более 19 м² </option>
+                            <option class="filter__option" value="">Менее 8 м²</option>
+                            <option class="filter__option" value="">от 10 до 14 м²</option>
+                            <option class="filter__option" value="">от 15 до 26 м² </option>
+                        </select>
+
+                        <select class="filter__select" name="Цвет" id="">
+                            <option class="filter__option" value="">Цвет</option>
+                            <option class="filter__option" value="">Красный</option>
+                            <option class="filter__option" value="">Желтый</option>
+                            <option class="filter__option" value="">Зеленый</option>
+                            <option class="filter__option" value="">Синий</option>
+                            <option class="filter__option" value="">Фиолетовый</option>
+                            <option class="filter__option" value="">Розовый</option>
+                            <option class="filter__option" value="">Бежевый</option>
+                            <option class="filter__option" value="">Белый</option>
+                            <option class="filter__option" value="">Черный</option>
+                            <option class="filter__option" value="">Серый</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+                <div class="content__product-inner">
+                    <div class="content__propduct-nav">
+
+                    </div>
+                    <div class="content__product-wrap">
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+
+                        <div class="content__product-box box">
+                            <div class="box__img-wrap"><img src="./assets/images/box-img1.png" alt=""></div>
+                            <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                            <div class="box__price">4 250 <sup class="box__price-sup">₽</sup> </div>
+                            <input class="box__coat" type="button" value="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
