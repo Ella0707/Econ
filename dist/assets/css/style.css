@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot");
-    src: local("Euclid Circular A Bold"), local("EuclidCircularA-Bold"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
+  src: url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot");
+  src: local("Euclid Circular A Bold"), local("EuclidCircularA-Bold"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff2") format("woff2"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.woff") format("woff"), url("../fonts/EuclidCircularA/EuclidCircularA-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -487,13 +489,14 @@ input[type="number"] {
     left: -3.5rem;
 }
 
-.main {
+.banner {
     background-image: linear-gradient(90deg, #1DBCD1 0%, #3DDCF1 100%);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 4.6rem;
 }
 
-.main__banner {
+.banner__wrap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -504,12 +507,12 @@ input[type="number"] {
     padding: 8.2rem 0 6.6rem 0;
 }
 
-.main__text-wrap {
+.banner__text-wrap {
     width: 58rem;
     position: relative;
 }
 
-.main__text-wrap::after {
+.banner__text-wrap::after {
     content: "";
     background-image: url(./../images/banner-img.png);
     background-repeat: no-repeat;
@@ -523,7 +526,7 @@ input[type="number"] {
     transform: translate(50%, -15%);
 }
 
-.main__heading {
+.banner__heading {
     color: #FFFFFF;
     font-size: 4.2rem;
     font-weight: 600;
@@ -531,14 +534,14 @@ input[type="number"] {
     margin-bottom: 2rem;
 }
 
-.main__about {
+.banner__about {
     color: #FFFFFF;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.7rem;
 }
 
-.main__btn {
+.banner__btn {
     width: 28.2rem;
     height: 7.8rem;
     background-color: #ffffff;
@@ -554,7 +557,7 @@ input[type="number"] {
     position: relative;
 }
 
-.main__btn::before {
+.banner__btn::before {
     content: "";
     background-image: url(./../images/btn-pseudoelement.png);
     background-repeat: no-repeat;
@@ -570,13 +573,14 @@ input[type="number"] {
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    margin-bottom: 19rem;
 }
 
 .content__product-inner {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .content__product-wrap {
@@ -590,6 +594,7 @@ input[type="number"] {
     font-size: 1.5rem;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 6.5rem;
 }
 
 .content__breadcrumb-item {
@@ -614,6 +619,50 @@ input[type="number"] {
     right: -3rem;
 }
 
+.content__heading {
+    font-size: 4rem;
+    margin-bottom: 9.2rem;
+}
+
+.content__product-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 6.7rem;
+}
+
+.content__product-left {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.content__product-count {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.content__product-product {
+    font-size: 1.6rem;
+    color: #7E838C;
+}
+
+.content__product-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.content__product-price {
+    font-size: 1.6rem;
+    color: #7E838C;
+    margin-right: 1.5rem;
+}
+
 .filter {
     width: 35.5rem;
     margin-right: 3.5rem;
@@ -625,6 +674,30 @@ input[type="number"] {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 35.5rem;
+    margin-bottom: 6.7rem;
+}
+
+.filter__title {
+    font-size: 2.2rem;
+}
+
+.filter__link {
+    font-size: 1.6rem;
+    color: #7E838C;
+    padding-right: 3rem;
+    position: relative;
+}
+
+.filter__link:after {
+    content: "";
+    background-image: url(./../images/filter-closed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0;
 }
 
 .filter__content {
@@ -734,6 +807,10 @@ input[type="number"] {
     display: inline-block;
 }
 
+.filter__range {
+    width: 37rem;
+}
+
 .color + label::before {
     content: '';
     display: inline-block;
@@ -772,6 +849,7 @@ input[type="number"] {
     padding: 0.6rem 5.6rem 3.1rem 5.6rem;
     border: 1px solid red;
     margin-bottom: 3.5rem;
+    position: relative;
 }
 
 .box:not(:nth-child(3n)) {
@@ -795,4 +873,106 @@ input[type="number"] {
 
 .box__price-sup {
     font-size: 1.5rem;
+}
+
+.box__coat {
+    width: 8.2rem;
+    height: 8.2rem;
+    background-color: #38D3E8;
+    background-image: url(./../images/box-coat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box__price-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.box__price-old {
+    margin-left: 2.3rem;
+    font-size: 1.5rem;
+    color: #7E838C;
+    position: relative;
+}
+
+.box__price-old:after {
+    content: "";
+    border-bottom: 1px solid #fd0b0b;
+    width: 100%;
+    height: 50%;
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    position: absolute;
+    left: 0;
+}
+
+.box:nth-child(2):before {
+    content: "% Акция";
+    font-size: 1.5rem;
+    color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 11rem;
+    height: 3.6rem;
+    background-color: #F31B4F;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box:nth-child(8):before {
+    content: "% Акция";
+    font-size: 1.5rem;
+    color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 11rem;
+    height: 3.6rem;
+    background-color: #F31B4F;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-block {
+    width: 109.5rem;
+    margin: 0 auto;
+}
+
+.text-block__title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 4.8rem;
+}
+
+.text-block__par {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+}
+
+.text-block__par:not(:last-child) {
+    margin-bottom: 6rem;
+}
+
+.text-block__subtitle {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin: 2rem 0 2rem 0;
 }

@@ -1,4 +1,8 @@
 .content {
+
+    margin-bottom: 19rem;
+
+
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -57,7 +61,11 @@
         justify-content: space-between;
         align-items: center;
 
-        margin-bottom: 6.7rem;
+        background-color: #F4F4F4;
+
+        padding: 2.5rem 4.1rem 2.5rem 4.1rem;
+
+        margin-bottom: 1.7rem;
     }
 
     &__product-left {
@@ -85,6 +93,14 @@
         color: #7E838C;
 
         margin-right: 1.5rem;
+    }
+
+    &__product-select {
+        border: none;
+        outline: none;
+        background-color: #F4F4F4;
+
+        font-weight: 600;
     }
 
 

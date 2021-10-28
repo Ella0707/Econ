@@ -1,11 +1,200 @@
 .footer {
+    background-color: #ffffff;
+    padding-top: 5.7rem;
+
     &__top {
         display: flex;
         justify-content: space-between;
+
+        padding-bottom: 5.7rem;
+        border-bottom: 1px solid #e1e1e7;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__logo {
+        margin-bottom: 6.8rem;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 5.5rem;
+    }
+
+    &__tel {
+        font-size: 1.8rem;
+        line-height: 2.0rem;
+        color: #2B2E34;
+        font-weight: 600;
+
+        padding-left: 3rem;
+        margin-bottom: 1.9rem;
+
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(./../images/phone-footer.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 2rem;
+            height: 2rem;
+
+            position: absolute;
+            top: -0.5rem;
+            left: 0;
+        }
+    }
+
+    &__work-time {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        color: #7E838C;
+    }
+
+    &__email {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #2B2E34;
+
+        padding-left: 4rem;
+        margin-bottom: 5.9rem;
+
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(./../images/footer-mail.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 3rem;
+            height: 3rem;
+
+            position: absolute;
+            top: -0.5rem;
+            left: 0;
+        }
+    }
+
+    &__social-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #2B2E34;
+
+        margin-bottom: 2.1rem;
+    }
+
+    &__social-list {
+        display: flex;
+    }
+
+    &__social-item {
+        position: relative;
+
+        &:nth-child(1) {
+            &::before {
+                content: "";
+                background-image: url(./../images/vk.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                width: 3rem;
+                height: 3rem;
+
+                position: absolute;
+                top: -0.5rem;
+                left: 0;
+            }
+        }
+
+        &:nth-child(2) {
+            &::before {
+                content: "";
+                background-image: url(./../images/inst.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                width: 3rem;
+                height: 3rem;
+
+                position: absolute;
+                top: -0.5rem;
+                left: 0;
+            }
+        }
+
+
+    }
+
+    &__social-link {
+        font-size: 1.6rem;
+        color: #7E838C;
+
+        padding-left: 4rem;
+        margin-right: 2.9rem;
     }
 
     &__information {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
     }
+
+    &__information-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+
+        margin-bottom: 2.6rem;
+    }
+
+    &__information-item {
+        font-size: 1.6rem;
+        line-height: 3.3rem;
+
+        color: #7E838C;
+    }
+
+    &__down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 1.6rem;
+        color: #7E838C;
+
+        padding: 4.9rem 0 3.8rem 0;
+    }
+
+    &__after {
+        display: flex;
+    }
+
+    &__after-title {
+        margin-right: 5.5rem;
+    }
+
+    &__after-logo {
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(./../images/icon.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 3rem;
+            height: 3rem;
+
+            position: absolute;
+            top: -1rem;
+            left: -4rem;
+        }
+    }
+
 }

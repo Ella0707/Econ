@@ -1,0 +1,68 @@
+.filter {
+
+    &__input-label {
+        display: flex;
+
+        font-size: 1.8rem;
+    }
+
+    &__input-wrap {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__slider-value {
+        font-size: 1.4rem;
+        border: none;
+        width: 6rem;
+
+        background-color: #F4F4F4;
+
+        padding: 0 0.3rem;
+    }
+
+    &__slider-text {
+        font-size: 1rem;
+    }
+}
+
+
+.irs--flat .irs-bar {
+    background-color: #38D3E8;
+
+    height: 0.3rem;
+}
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+
+    background-color: #38D3E8;
+
+}
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+    &::before {
+        content: none;
+    }
+}
+
+.irs--flat .irs-line {
+    top: 3.5rem;
+    height: 0.4rem;
+
+    background-color: #e1e4e9;
+}
+
+.irs--flat .irs-handle>i:first-child {
+    background-color: #38D3E8;
+    top: -22%;
+}
+
+.irs--flat .irs-handle.state_hover>i:first-child,
+.irs--flat .irs-handle:hover>i:first-child {
+    background-color: #38D3E8;
+}
