@@ -14,4 +14,31 @@
         flex-wrap: wrap;
     }
 
+    &__breadcrumb {
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    &__breadcrumb-item {
+        margin-right: 2rem;
+        color: #7E838C;        
+
+        & + .active {
+            font-weight: 600;
+            color: #2B2E34;
+        }
+    }
+
+    &__breadcrumb-link {
+        position: relative;
+
+        &:after {
+            content: "/";
+            width: 2rem;
+            height: 2rem;
+
+            position: absolute;
+            right: -3rem;
+        }
+    }
 }

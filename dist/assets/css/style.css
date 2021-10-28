@@ -659,8 +659,10 @@ input[type="number"] {
     background-color: #ddd;
 }
 
-.show {
+.open {
     display: block;
+    position: relative;
+    margin-bottom: 5rem;
 }
 
 .box {

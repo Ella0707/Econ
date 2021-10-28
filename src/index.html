@@ -87,13 +87,12 @@
 
     <section class="content">
         <div class="container">
+
             <ul class="content__breadcrumb">
                 <li class="content__breadcrumb-item">
                     <a class="content__breadcrumb-link" href="">Главная</a>
                 </li>
-                <li class="content__breadcrumb-item">
-                    <a class="content__breadcrumb-link" href="">Отопительное оборудование</a>
-                </li>
+                <li class="content__breadcrumb-item active">Отопительное оборудование</li>
             </ul>
 
 
@@ -108,39 +107,49 @@
 
                     <div class="filter__content">
 
-                        <div class="filter__select dropdown-checkbox form-group">   
-                            <label class="label-title">Отопительное оборудование</label>
-                            <ul>
-                                <li><label><input type="checkbox" name="type[]">Радиаторы отопления</label></li>
-                                <li><label><input type="checkbox" name="type[]">Конвекторы отопления</label></li>
-                                <li><label><input type="checkbox" name="type[]">Полотенцесушители</label></li>
-                                <li><label><input type="checkbox" name="type[]">Арматура для радиаторов</label></li>
-                            </ul>
-                        </div>
-
-
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Отопительное оборудование</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select1()">Отопительное оборудование</button>
+                            <div class="filter__dropdown-content" id="myDropdown1">
                                 <ul>
-                                    <li><label><input type="checkbox" name="type[]">Радиаторы отопления</label></li>
-                                    <li><label><input type="checkbox" name="type[]">Конвекторы отопления</label></li>
-                                    <li><label><input type="checkbox" name="type[]">Полотенцесушители</label></li>
-                                    <li><label><input type="checkbox" name="type[]">Арматура для радиаторов</label></li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox1">
+                                        <label class="filter__label" for="checkbox1">Радиаторы отопления</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox2">
+                                        <label class="filter__label" for="checkbox2">Конвекторы отопления</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox3">
+                                        <label class="filter__label" for="checkbox3">Полотенцесушители</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox4">
+                                        <label class="filter__label" for="checkbox4">Арматура для радиаторов</label>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select2()">Бренд</button>
+                            <div class="filter__dropdown-content" id="myDropdown2">
+                                <ul>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox5">
+                                        <label class="filter__label" for="checkbox5">Purmo</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox6">
+                                        <label class="filter__label" for="checkbox6">Irsap</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox7">
+                                        <label class="filter__label" for="checkbox7">Terma</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox8">
+                                        <label class="filter__label" for="checkbox8">Loten</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox9">
+                                        <label class="filter__label" for="checkbox9">Guardo</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                   
-
-                        <select class="filter__select" name="Бренд" id="">
-                            <option class="filter__option" value="">Purmo</option>
-                            <option class="filter__option" value="">Irsap</option>
-                            <option class="filter__option" value="">Terma</option>
-                            <option class="filter__option" value="">Loten</option>
-                            <option class="filter__option" value="">Guardo</option>
-                        </select>
 
                         <div class="filter__range-wrap">
                             <div class="filter__label">Цена</div>
@@ -149,32 +158,103 @@
                             <div class="filter__value">23000</div>
                         </div>
 
-                        <select class="filter__select" name="Межосетевое расстояние" id="">
-                            <option class="filter__option" value="">20 см</option>
-                            <option class="filter__option" value="">35 см</option>
-                            <option class="filter__option" value="">50 см</option>
-                        </select>
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select3()">Количество секций</button>
+                            <div class="filter__dropdown-content" id="myDropdown3">
+                                <ul>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox10">
+                                        <label class="filter__label" for="checkbox10">4</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox11">
+                                        <label class="filter__label" for="checkbox11">6</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox12">
+                                        <label class="filter__label" for="checkbox12">8</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox12">
+                                        <label class="filter__label" for="checkbox12">12</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                        <select class="filter__select" name="Площадь отопления" id="">
-                            <option class="filter__option" value="">Более 19 м² </option>
-                            <option class="filter__option" value="">Менее 8 м²</option>
-                            <option class="filter__option" value="">от 10 до 14 м²</option>
-                            <option class="filter__option" value="">от 15 до 26 м² </option>
-                        </select>
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select4()">Межосетевое расстояние</button>
+                            <div class="filter__dropdown-content" id="myDropdown4">
+                                <ul>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox13">
+                                        <label class="filter__label" for="checkbox13">20 см</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox14">
+                                        <label class="filter__label" for="checkbox14">35 см</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox15">
+                                        <label class="filter__label" for="checkbox15">50 см</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                        <select class="filter__select" name="Цвет" id="">
-                            <option class="filter__option" value="">Цвет</option>
-                            <option class="filter__option" value="">Красный</option>
-                            <option class="filter__option" value="">Желтый</option>
-                            <option class="filter__option" value="">Зеленый</option>
-                            <option class="filter__option" value="">Синий</option>
-                            <option class="filter__option" value="">Фиолетовый</option>
-                            <option class="filter__option" value="">Розовый</option>
-                            <option class="filter__option" value="">Бежевый</option>
-                            <option class="filter__option" value="">Белый</option>
-                            <option class="filter__option" value="">Черный</option>
-                            <option class="filter__option" value="">Серый</option>
-                        </select>
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select5()">Площадь отопления</button>
+                            <div class="filter__dropdown-content" id="myDropdown5">
+                                <ul>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox16">
+                                        <label class="filter__label" for="checkbox16">Более 19 м²</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox17">
+                                        <label class="filter__label" for="checkbox17">Менее 8 м²</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox18">
+                                        <label class="filter__label" for="checkbox18">от 10 до 14 м²</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="checkbox19">
+                                        <label class="filter__label" for="checkbox19">от 15 до 26 м²</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="filter__dropdown">
+                            <button class="filter__dropbtn" onclick="select6()">Цвет</button>
+                            <div class="filter__dropdown-content" id="myDropdown6">
+                                <ul>
+                                    <li> <input class="filter__checkbox color" type="checkbox" id="color1">
+                                        <label class="filter__label close" for="color1">Красный
+                                            <a class="filter__btn-close" href=""></a>
+                                        </label>
+                                        
+                                    </li>
+                                    <li> <input class="filter__checkbox color" type="checkbox" id="color2">
+                                        <label class="filter__label" for="color2">Желтый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color3">
+                                        <label class="filter__label" for="color3">Зеленый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color4">
+                                        <label class="filter__label" for="color4">Синий</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color5">
+                                        <label class="filter__label" for="color5">Фиолетовый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color6">
+                                        <label class="filter__label" for="color6">Розовый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color7">
+                                        <label class="filter__label" for="color7">Бежевый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color8">
+                                        <label class="filter__label" for="color8">Белый</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color9">
+                                        <label class="filter__label" for="color9">Черный</label>
+                                    </li>
+                                    <li> <input class="filter__checkbox" type="checkbox" id="color10">
+                                        <label class="filter__label" for="color10">Серый</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
