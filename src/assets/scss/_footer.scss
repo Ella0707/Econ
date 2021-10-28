@@ -1,0 +1,11 @@
+.footer {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__information {
+        display: flex;
+        justify-content: space-between;
+    }
+}

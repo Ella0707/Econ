@@ -8,7 +8,35 @@
         display: flex;
         justify-content: space-between;
         width: 35.5rem;
+
+        margin-bottom: 6.7rem;
     }
+
+    &__title {
+      font-size: 2.2rem;
+    }
+
+    &__link {
+      font-size: 1.6rem;
+      color: #7E838C;
+
+      padding-right: 3rem;
+
+      position: relative;
+
+      &:after {
+        content: "";
+        background-image: url(./../images/filter-closed.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1.5rem;
+        height: 1.5rem;
+
+        position: absolute;
+        top: 0.2rem;
+        right: 0;
+      }
+      }
 
     &__content {
         display: flex;
@@ -116,8 +144,12 @@
         display: inline-block;
       }
     }
-}
 
+
+    &__range {
+      width: 37rem;
+    }
+}
 
 
 .color {

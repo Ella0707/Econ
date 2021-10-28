@@ -1,0 +1,86 @@
+.banner {
+    background-image: linear-gradient(90deg, #1DBCD1 0%, #3DDCF1 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-bottom: 4.6rem;
+
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0 20rem 0 20rem;
+        padding: 8.2rem 0 6.6rem 0;
+    }
+
+    &__text-wrap {
+        width: 58rem;
+        position: relative;
+
+        &::after {
+            content: "";
+            background-image: url(./../images/banner-img.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 86rem;
+            height: 70rem;
+
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            transform: translate(50%, -15%);
+        }
+    }
+
+    &__heading {
+        color: #FFFFFF;
+        font-size: 4.2rem;
+        font-weight: 600;
+        line-height: 5.3rem;
+
+        margin-bottom: 2rem;
+    }
+
+    &__about {
+        color: #FFFFFF;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.7rem;
+    }
+
+    &__btn {
+        width: 28.2rem;
+        height: 7.8rem;
+
+        background-color: #ffffff;
+
+        font-size: 1.8rem;
+        font-weight: 500;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        padding-right: 5rem;
+
+        position: relative;
+
+
+        &::before {
+            content: "";
+            background-image: url(./../images/btn-pseudoelement.png);
+            background-repeat: no-repeat;
+            width: 41rem;
+            height: 4rem;
+
+            position: absolute;
+            top: 2.7rem;
+            left: 2.5rem;
+        }
+    }
+
+   
+}
