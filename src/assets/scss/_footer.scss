@@ -8,6 +8,10 @@
 
         padding-bottom: 5.7rem;
         border-bottom: 1px solid #e1e1e7;
+
+        @media (max-width: 48em) {
+            flex-direction: column;
+        }
     }
 
     &__left {
@@ -169,6 +173,10 @@
         color: #7E838C;
 
         padding: 4.9rem 0 3.8rem 0;
+
+        @media (max-width: 48em) {
+            flex-direction: column;
+        }
     }
 
     &__after {

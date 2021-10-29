@@ -8,11 +8,19 @@
 
   margin-right: 3.5rem;
 
+  @media (max-width: 48em) {
+    display: none;
+}
+
   &__top {
     display: flex;
     justify-content: space-between;
 
     margin-bottom: 6.7rem;
+
+    @media (max-width: 48em) {
+      display: none;
+  }
   }
 
   &__title {

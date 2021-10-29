@@ -25,6 +25,11 @@
         display: flex;
 
         margin-bottom: 6.5rem;
+
+        @media (max-width: 48em) {
+            display: none;
+        }
+
     }
 
     &__breadcrumb-item {
@@ -53,7 +58,7 @@
     &__heading {
         font-size: 4rem;
 
-        margin-bottom: 9.2rem;
+        margin-bottom: 6.2rem;
     }
 
     &__product-nav {
@@ -65,7 +70,11 @@
 
         padding: 2.5rem 4.1rem 2.5rem 4.1rem;
 
-        margin-bottom: 1.7rem;
+        margin-bottom: 4.5rem;
+
+        @media (max-width: 48em) {
+            display: none;
+        }
     }
 
     &__product-left {
@@ -103,5 +112,38 @@
         font-weight: 600;
     }
 
+    &__nav-mobile {
+        display: none;
 
+        @media (max-width: 48em) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+
+    &__link-mobile {
+        display: none;
+
+        @media (max-width: 48em) {
+            display: block;
+            text-align: center;
+        }
+    }
+
+
+    &__filter-mobile {
+        font-size: 3.2rem;
+    }
+}
+
+
+.mobile {
+    display: none;
+
+    @media (max-width: 48em) {
+        display: flex;
+    }
+
+    
 }

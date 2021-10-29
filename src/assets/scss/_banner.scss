@@ -3,7 +3,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 
-    margin-bottom: 4.6rem;
+    margin-bottom: 5.7rem;
 
 
     &__wrap {
@@ -11,27 +11,29 @@
         justify-content: space-between;
         align-items: center;
 
-        margin: 0 20rem 0 20rem;
+        margin: 0 19.5rem 0 19.5rem;
         padding: 8.2rem 0 6.6rem 0;
+
+        position: relative;
+
+        @media (max-width: 48em) {
+            margin: 0 5rem 0 5rem;
+            flex-direction: column;
+
+            padding-bottom: 48.8rem;
+            padding-top: 11.2rem;
+        }
+
     }
 
     &__text-wrap {
-        width: 58rem;
+        width: 60rem;
         position: relative;
 
-        &::after {
-            content: "";
-            background-image: url(./../images/banner-img.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 86rem;
-            height: 70rem;
+        @media (max-width: 48em) {
+            width: 100%;
 
-            position: absolute;
-
-            top: 0;
-            left: 0;
-            transform: translate(50%, -15%);
+            margin-bottom: 10.4rem;
         }
     }
 
@@ -42,6 +44,11 @@
         line-height: 5.3rem;
 
         margin-bottom: 2rem;
+
+        @media (max-width: 48em) {
+            font-size: 5.6rem;
+            margin-bottom: 2.4rem;
+        }
     }
 
     &__about {
@@ -49,6 +56,27 @@
         font-size: 1.8rem;
         font-weight: 400;
         line-height: 2.7rem;
+
+        @media (max-width: 48em) {
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+
+    
+    &__img {
+        position: absolute;
+
+        left: 50%;
+        transform: translate(-41%, -55%);
+        width: 84.8rem;
+
+
+        @media (max-width: 48em) {
+            bottom: 0;
+            transform: translate(-55%, 0%);
+            width: 120.8rem;;
+        }
     }
 
     &__btn {
@@ -68,6 +96,11 @@
 
         position: relative;
 
+        @media (max-width: 48em) {
+            width: 46.4rem;
+            height: 10.8rem;
+        }
+
 
         &::before {
             content: "";
@@ -82,5 +115,5 @@
         }
     }
 
-   
+
 }

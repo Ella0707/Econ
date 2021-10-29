@@ -31,7 +31,8 @@ function slider() {
 }
 
 
-$("#rangeSlider").ionRangeSlider();
+
+$("#rangeSlider").ionRangeSlider();            
 
 var $range = $(".js-range-slider"),
     $inputFrom = $(".js-input-from"),
