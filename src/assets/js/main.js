@@ -26,6 +26,11 @@ function slider() {
   document.getElementById("slider").classList.toggle("open");  
 }
 
+function filterBtn() {
+    document.getElementById('filterBtn').classList.toggle('open');
+    document.getElementById('filterOpen').classList.toggle('open');
+}
+
 
 
 $("#rangeSlider").ionRangeSlider();            

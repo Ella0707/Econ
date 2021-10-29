@@ -131,23 +131,25 @@
                 </div>
 
                 <div class="content__nav-mobile">
-                    <a class="content__filter-mobile">Фильтры</a>
+                    <button class="content__filter-mobile" onclick="filterBtn()" id="filterBtn">Фильтры</button>
                     <select name="" id="">Сортировка
                         <Option></Option>
                         <Option></Option>
                         <Option></Option>
                     </select>
                 </div>
-
-
                 <div class="content__inner">
 
                                         <!-- FILTER  -->
 
-                    <div class="content__filter filter">
+                    <div class="content__filter filter" id="filterOpen">
                         <div class="filter__top">
                             <div class="filter__title">Фильтры</div>
                             <a class="filter__link">Сбросить</a>
+                        </div>
+
+                        <div class="filter__nav-mobile">
+                            <button class="filter__filter-mobile" onclick="filterBtn()" id="filterBtn">Фильтры</button>
                         </div>
 
                         <div class="filter__content">
