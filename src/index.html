@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Отопительное оборудование</title>
 </head>
 
 <body>
 
 
-                                            <!-- HEADER  -->
+    <!-- HEADER  -->
     <header class="header">
         <div class="container">
             <div class="header__inner">
 
                 <div class="header__top">
-                    <a class="header__btn" href="#">
+                    <a class="header__btn" href="#" onclick="headerBtn()" id="headerBtn">
                         <img class="header__btn-img" src="./assets/images/burger-icon.png" alt="">
                     </a>
                     <a class="header__logo-link" href="#">
@@ -86,15 +88,74 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="header__menu-mobile menu-mobile" id="menuMobile">
+
+                <a class="menu-mobile__logo-link" href="#">
+                    <img class="menu-mobile__logo-img" src="./assets/images/logo-icon.png" alt="">
+                </a>
+
+                <div class="menu-mobile__dropdown">
+                    <button class="menu-mobile__dropbtn" onclick="select7()">Отопительное оборудование</button>
+                    <div class="menu-mobile__dropdown-content" id="myDropdown7">
+                        <ul>
+                            <li> <input class="menu-mobile__checkbox" type="checkbox" id="checkbox1">
+                                <label class="menu-mobile__label" for="checkbox1">Радиаторы отопления</label>
+                            </li>
+                            <li> <input class="menu-mobile__checkbox" type="checkbox" id="checkbox2">
+                                <label class="menu-mobile__label" for="checkbox2">Конвекторы отопления</label>
+                            </li>
+                            <li> <input class="menu-mobile__checkbox" type="checkbox" id="checkbox3">
+                                <label class="menu-mobile__label" for="checkbox3">Полотенцесушители</label>
+                            </li>
+                            <li> <input class="menu-mobile__checkbox" type="checkbox" id="checkbox4">
+                                <label class="menu-mobile__label" for="checkbox4">Арматура для радиаторов</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Комплектация объектов сантехникой</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Дозаторы антисептика и стойки для диспенсера</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Водосберегающая сантехника</a>
+                    </li>
+                </ul>
+
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Наше производство</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Готовые решения</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">О компании</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Сертификаты</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile__link" href="#">Новости</a>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
     </header>
 
 
 
-                                            <!-- MAIN  -->
+    <!-- MAIN  -->
     <section class="main">
 
-                                            <!-- BANNER -->
+        <!-- BANNER -->
         <div class="banner">
             <div class="banner__wrap">
                 <div class="banner__text-wrap">
@@ -104,14 +165,14 @@
                 </div>
 
                 <div class="banner__img-wrap">
-                <img class="banner__img" src="./assets/images/banner-img.png" alt="">
+                    <img class="banner__img" src="./assets/images/banner-img.png" alt="">
                 </div>
 
                 <a class="banner__btn" href="">Подробнее</a>
             </div>
         </div>
 
-                                            <!-- CONTENT  -->
+        <!-- CONTENT  -->
 
         <div class="content">
             <div class="container">
@@ -142,7 +203,7 @@
 
                 <div class="content__inner">
 
-                                        <!-- FILTER  -->
+                    <!-- FILTER  -->
 
                     <div class="content__filter filter" id="filterOpen">
                         <div class="filter__top">
@@ -201,21 +262,23 @@
 
 
                             <div class="filter__range">
-                            
+
                                 <button class="filter__dropbtn" onclick="slider()">Цена</button>
-                            
+
                                 <div class="filter__dropdown-content range-slider" id="slider">
-                            
+
                                     <input type="text" class="js-range-slider" value="" />
-                            
-                            
+
+
                                     <div class="filter__input-wrap extra-controls">
                                         <label class="filter__input-label">
-                                            <input class="filter__slider-value js-input-from" type="text" value="3000" placeholder="3000">
+                                            <input class="filter__slider-value js-input-from" type="text" value="3000"
+                                                placeholder="3000">
                                             <sup class="filter__slider-text">₽</sup>
                                         </label>
                                         <label class="filter__input-label">
-                                            <input class="filter__slider-value js-input-to" type="text" value="100000" placeholder="3000">
+                                            <input class="filter__slider-value js-input-to" type="text" value="100000"
+                                                placeholder="3000">
                                             <sup class="filter__slider-text">₽</sup>
                                         </label>
                                     </div>
@@ -283,43 +346,53 @@
                                 <button class="filter__dropbtn" onclick="select6()">Цвет</button>
                                 <div class="filter__dropdown-content" id="myDropdown6">
                                     <ul class="filter__color-list">
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color1">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color1">
                                             <label class="filter__label close" for="color1">Красный</label>
                                         </li>
 
-                                        <li  class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color2">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color2">
                                             <label class="filter__label" for="color2">Желтый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color3">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color3">
                                             <label class="filter__label" for="color3">Зеленый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color4">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color4">
                                             <label class="filter__label" for="color4">Синий</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color5">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color5">
                                             <label class="filter__label" for="color5">Фиолетовый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color6">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color6">
                                             <label class="filter__label" for="color6">Розовый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color7">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color7">
                                             <label class="filter__label" for="color7">Бежевый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color8">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color8">
                                             <label class="filter__label" for="color8">Белый</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color9">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color9">
                                             <label class="filter__label" for="color9">Черный</label>
                                         </li>
 
-                                        <li class="filter__color-item"> <input class="filter__checkbox color" type="checkbox" id="color10">
+                                        <li class="filter__color-item"> <input class="filter__checkbox color"
+                                                type="checkbox" id="color10">
                                             <label class="filter__label" for="color10">Серый</label>
                                         </li>
                                     </ul>
@@ -328,7 +401,7 @@
                         </div>
                     </div>
 
-                                        <!-- PRODUCTS  -->
+                    <!-- PRODUCTS  -->
 
                     <div class="content__product-inner">
 
@@ -348,7 +421,7 @@
                             </div>
                         </div>
 
-                            
+
                         <div class="content__product-wrap">
 
                             <div class="content__product-box box">
@@ -471,12 +544,12 @@
                             </div>
                         </div>
 
-                    <a href="" class="content__link-mobile">Показать еще</a>
+                        <a href="" class="content__link-mobile">Показать еще</a>
 
                     </div>
                 </div>
 
-                                                <!-- TEXT-BLOCK -->
+                <!-- TEXT-BLOCK -->
 
                 <div class="content__text-block text-block">
                     <div class="text-block__title">Длинный или короткий заголовок SEO текста</div>
@@ -520,7 +593,7 @@
     </section>
 
 
-                                                <!-- FOOTER  -->
+    <!-- FOOTER  -->
 
     <footer class="footer">
         <div class="container">
@@ -681,13 +754,13 @@
 
 
 
-  <!--jQuery-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!--Plugin JavaScript file-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+    <!--Plugin JavaScript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
 
-<script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

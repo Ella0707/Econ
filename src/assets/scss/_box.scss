@@ -15,22 +15,22 @@
     }
 
     @media (max-width: 48em) {
-        width: 35.4rem;
-        margin-right: 1.3rem;
+        padding: 1rem 2.8rem 3.1rem 2.8rem;
+        width: 36.8rem;
+
+        &:nth-child(3n) {
+            margin-right: 3rem;
+        }
 
         &:not(:nth-child(2n)) {
-            margin-right: 1.3rem;
+            margin-right: 3rem;
         }
 
         &:nth-child(2n) {
             margin-right: 0rem;
         }
 
-        &:nth-child(3n) {
-            margin-right: 1.3rem;
-        }
-
-        &:nth-child(2n+2) {
+        &:nth-child(n+9) {
             display: none;
         }
     }
@@ -44,15 +44,28 @@
         font-weight: 600;
 
         margin-bottom: 4.4rem;
+
+
+        @media (max-width: 48em) {
+            font-size: 2.8rem;
+        }
     }
 
     &__price {
         font-size: 2.0rem;
         font-weight: 600;
+
+        @media (max-width: 48em) {
+            font-size: 3.2rem;
+        }
     }
 
     &__price-sup {
         font-size: 1.5rem;
+
+        @media (max-width: 48em) {
+            font-size: 2.2rem;
+        }
     }
 
     &__coat {
@@ -62,7 +75,7 @@
         background-color: #38D3E8;
         background-image: url(./../images/box-coat.png);
         background-position: center;
-        background-repeat:no-repeat;
+        background-repeat: no-repeat;
 
         outline: none;
         border: none;
@@ -70,6 +83,11 @@
         position: absolute;
         bottom: 0;
         right: 0;
+
+        @media (max-width: 48em) {
+            width: 8.6rem;
+            height: 8.6rem;
+        }
     }
 
     &__price-wrap {
@@ -83,6 +101,10 @@
         color: #7E838C;
 
         position: relative;
+
+        @media (max-width: 48em) {
+            font-size: 2.4rem;
+        }
 
         &:after {
             content: "";
@@ -113,6 +135,12 @@
             position: absolute;
             top: 0;
             left: 0;
+
+            @media (max-width: 48em) {
+                font-size: 2.46rem;
+                height: 5.8rem;
+                width: 16rem;
+            }
         }
     }
 
@@ -133,6 +161,12 @@
             position: absolute;
             top: 0;
             left: 0;
+
+            @media (max-width: 48em) {
+                font-size: 2.46rem;
+                height: 5.8rem;
+                width: 16rem;
+            }
         }
     }
 
@@ -146,9 +180,3 @@
 
 
 
-                        // <div class="content__product-box box">
-                        //     <div><img src="./assets/images/box-img1.png" alt=""></div>
-                        //     <div class="box__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
-                        //     <div class="box__price">4 250</div>
-                        //     <input class="box__coat" type="button" value="">
-                        // </div>

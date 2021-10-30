@@ -98,7 +98,7 @@
             margin-bottom: 3rem;
             align-items: flex-end;
         }
-   }
+    }
 
     &__product-count{
         font-size: 1.8rem;
@@ -113,19 +113,13 @@
 
     &__product-product {
         font-size: 1.6rem;
-        color: #7E838C;
-
-        font-size: 3.2rem;
-        
+        color: #7E838C;        
     }
 
     &__product-product-mobile {
-        font-size: 1.6rem;
-        color: #7E838C;
-        
         font-size: 3.2rem;
-        
-    }
+        color: #7E838C;
+   }
 
     &__product-sort {
         display: flex;
@@ -133,7 +127,7 @@
     }
 
     &__product-price {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         color: #7E838C;
 
         margin-right: 1.5rem;
@@ -145,6 +139,7 @@
         background-color: #F4F4F4;
 
         font-weight: 600;
+        font-size: 1.6rem;
     }
 
     &__nav-mobile {

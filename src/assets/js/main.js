@@ -31,6 +31,15 @@ function filterBtn() {
     document.getElementById('filterOpen').classList.toggle('open');
 }
 
+function headerBtn() {
+    document.getElementById('headerBtn').classList.toggle('open');
+    document.getElementById('menuMobile').classList.toggle('open');
+}
+
+function select7() {
+    document.getElementById("myDropdown7").classList.toggle("open");  
+  }
+
 $("#rangeSlider").ionRangeSlider();            
 
 var $range = $(".js-range-slider"),
