@@ -19,13 +19,6 @@
         margin-right: 3.6rem;
     }
 
-    &__mobile-img {
-        @media (max-width: 48em) {
-        width: 4rem;
-        }
-
-    }
-
 
     &__top {
         display: flex;

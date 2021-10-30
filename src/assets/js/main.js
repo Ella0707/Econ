@@ -31,8 +31,6 @@ function filterBtn() {
     document.getElementById('filterOpen').classList.toggle('open');
 }
 
-
-
 $("#rangeSlider").ionRangeSlider();            
 
 var $range = $(".js-range-slider"),

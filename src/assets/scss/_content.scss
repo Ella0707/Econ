@@ -9,6 +9,10 @@
         justify-content: space-between;
 
         margin-bottom: 19rem;
+
+        @media (max-width: 48em) {
+            margin-bottom: 24rem;
+        }
 }
 
     &__product-inner {
@@ -86,26 +90,44 @@
         display: flex;
     }
 
+    &__product-left-mobile {
+        display: none;
+
+        @media (max-width: 48em) {
+            display: flex;
+            margin-bottom: 3rem;
+            align-items: flex-end;
+        }
+   }
+
     &__product-count{
         font-size: 1.8rem;
         font-weight: 600;
         margin-right: 1.5rem;
+    }
 
-        @media (max-width: 48em) {
-            font-size: 3.2rem;
-        }
+    &__product-count-mobile{
+            font-size: 3.6rem;
+            margin-right: 3rem;
     }
 
     &__product-product {
         font-size: 1.6rem;
         color: #7E838C;
 
-        @media (max-width: 48em) {
-            font-size: 3.2rem;
-        }
+        font-size: 3.2rem;
+        
     }
 
-    &__product-right {
+    &__product-product-mobile {
+        font-size: 1.6rem;
+        color: #7E838C;
+        
+        font-size: 3.2rem;
+        
+    }
+
+    &__product-sort {
         display: flex;
         align-items: center;
     }
@@ -142,7 +164,6 @@
         }
     }
 
-
     &__link-mobile {
         display: none;
 
@@ -155,17 +176,59 @@
 
     &__filter-mobile {
         font-size: 3.2rem;
+        font-weight: 600;
+
+        padding-left: 9.4rem;
+
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(./../images/mobile-filter.png);
+            background-repeat: no-repeat;
+            background-position:center;
+
+            width: 4.8rem;
+            height: 4.8rem;
+
+            position: absolute;
+            top: -1rem;
+            left: 3rem;
+        }
+    }
+
+
+    &__sorter-select {
+        font-size: 3.2rem;
+        font-weight: 600;
+        background-color: #F4F4F4;
+
+        border: none;
+        outline: none;
+        max-width: 24rem;
+
+        margin-right: 4rem;
+    }
+
+    &__sorter-item {
+        font-size: 2rem;
+
+        border: none;
+        outline: none;
+        background-color: #F4F4F4;
+    }
+
+
+    &__link-mobile {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 4rem;
+        color: #2B2E34;
+        border-bottom: 1px solid #2B2E34;
+
+        width: max-content;
+        margin: 0 auto;
+
     }
 }
 
-
-.mobile {
-    display: none;
-
-    @media (max-width: 48em) {
-        display: flex;
-        margin-bottom: 6.2rem;
-    }
-
-    
-}

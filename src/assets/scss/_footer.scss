@@ -21,6 +21,10 @@
 
     &__logo {
         margin-bottom: 6.8rem;
+
+        @media (max-width: 48em) {
+            width: 56rem;
+        }
     }
 
     &__contact {
@@ -28,6 +32,10 @@
         flex-direction: column;
 
         margin-bottom: 5.5rem;
+
+        @media (max-width: 48em) {
+            margin-bottom: 8.8rem;
+        }
     }
 
     &__tel {
@@ -40,6 +48,11 @@
         margin-bottom: 1.9rem;
 
         position: relative;
+
+        @media (max-width: 48em) {
+            font-size: 3.6rem;
+            margin-bottom: 3.8rem;
+        }
 
         &::before {
             content: "";
@@ -60,6 +73,10 @@
         font-size: 1.6rem;
         margin-bottom: 1rem;
         color: #7E838C;
+
+        @media (max-width: 48em) {
+            font-size: 3.2rem;
+        }
     }
 
     &__email {
@@ -71,6 +88,11 @@
         margin-bottom: 5.9rem;
 
         position: relative;
+
+        @media (max-width: 48em) {
+            font-size: 3.6rem;
+            margin-bottom: 8rem;
+        }
 
         &::before {
             content: "";
@@ -93,10 +115,19 @@
         color: #2B2E34;
 
         margin-bottom: 2.1rem;
+
+        @media (max-width: 48em) {
+            font-size: 3.6rem;
+            margin-bottom: 4.2rem;
+        }
     }
 
     &__social-list {
         display: flex;
+
+        @media (max-width: 48em) {
+            margin-bottom: 16rem;
+        }
     }
 
     &__social-item {
@@ -143,11 +174,20 @@
 
         padding-left: 4rem;
         margin-right: 2.9rem;
+
+        @media (max-width: 48em) {
+            font-size: 3.2rem;
+            margin-bottom: 16rem;
+        }
     }
 
     &__information {
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 48em) {
+            margin-bottom: 7.2rem;
+        }
     }
 
     &__information-title {
@@ -155,6 +195,11 @@
         font-weight: 600;
 
         margin-bottom: 2.6rem;
+
+        @media (max-width: 48em) {
+            font-size: 3.6rem;
+            margin-bottom: 3.2rem;
+        }
     }
 
     &__information-item {
@@ -162,6 +207,11 @@
         line-height: 3.3rem;
 
         color: #7E838C;
+
+        @media (max-width: 48em) {
+            font-size: 3.2rem;
+            margin-bottom: 2.2rem;
+        }
     }
 
     &__down {
@@ -176,6 +226,28 @@
 
         @media (max-width: 48em) {
             flex-direction: column;
+            align-items: flex-start;
+
+            font-size: 3.2rem;
+        }
+    }
+
+  
+    &__copyright {
+        @media (max-width: 48em) {
+            margin-bottom: 6rem;
+        }
+    }
+
+    &__link-confidentiality {
+        @media (max-width: 48em) {
+            margin-bottom: 6rem;
+        }
+    }
+
+    &__link-personal {
+        @media (max-width: 48em) {
+            margin-bottom: 13rem;
         }
     }
 
@@ -185,10 +257,18 @@
 
     &__after-title {
         margin-right: 5.5rem;
+
+        @media (max-width: 48em) {
+            margin-right: 11rem;
+         }
     }
 
     &__after-logo {
         position: relative;
+
+        @media (max-width: 48em) {
+           width: 26rem;
+        }
 
         &::before {
             content: "";
@@ -202,6 +282,14 @@
             position: absolute;
             top: -1rem;
             left: -4rem;
+
+            @media (max-width: 48em) {
+                width: 4rem;
+                height: 4rem;
+
+                top: -0.5rem;
+                left: -5.5rem;
+             }
         }
     }
 

@@ -86,7 +86,7 @@
         background-color: #ffffff;
 
         font-size: 1.8rem;
-        font-weight: 500;
+        font-weight: 600;
 
         display: flex;
         justify-content: end;
@@ -99,6 +99,9 @@
         @media (max-width: 48em) {
             width: 46.4rem;
             height: 10.8rem;
+
+            font-size: 3rem;
+            padding-right: 7.6rem;
         }
 
 
@@ -112,6 +115,11 @@
             position: absolute;
             top: 2.7rem;
             left: 2.5rem;
+
+            @media (max-width: 48em) {
+                top: 4.5rem;
+                left: 6.5rem;
+            }
         }
     }
 

@@ -125,19 +125,21 @@
 
                 <div class="content__heading">Отопительное оборудование</div>
 
-                <div class="content__product-left mobile">
-                    <div class="content__product-count">2394</div>
-                    <div class="content__product-product">товаров</div>
+                <div class="content__product-left-mobile">
+                    <div class="content__product-count-mobile">2394</div>
+                    <div class="content__product-product-mobile">товаров</div>
                 </div>
 
                 <div class="content__nav-mobile">
                     <button class="content__filter-mobile" onclick="filterBtn()" id="filterBtn">Фильтры</button>
-                    <select name="" id="">Сортировка
-                        <Option></Option>
-                        <Option></Option>
-                        <Option></Option>
+                    <select class="content__sorter-select" name="" id="resizing_select">
+                        <Option class="content__sorter-item">Сортировка</Option>
+                        <Option class="content__sorter-item">По возрастанию цены</Option>
+                        <Option class="content__sorter-item">По убыванию цены</Option>
+                        <Option class="content__sorter-item">По популярности</Option>
                     </select>
                 </div>
+
                 <div class="content__inner">
 
                                         <!-- FILTER  -->
@@ -336,7 +338,7 @@
                                 <div class="content__product-product">товаров</div>
                             </div>
 
-                            <div class="content__product-right">
+                            <div class="content__product-sort">
                                 <div class="content__product-price">Цена:</div>
                                 <select class="content__product-select">
                                     <option value="">По возрастанию</option>
@@ -662,18 +664,14 @@
             </div>
 
             <div class="footer__down">
-                <div>Copyright © 2014 - 2020</div>
-                <a href="">Политика конфиденциальности</a>
-                <a href="">Обработка персональной информации</a>
+                <div class="footer__copyright">Copyright © 2014 - 2020</div>
+                <a div class="footer__link-confidentiality" href="">Политика конфиденциальности</a>
+                <a div class="footer__link-personal" href="">Обработка персональной информации</a>
                 <div class="footer__after">
                     <div class="footer__after-title">Разработано</div>
                     <a class="footer__after-logo" href=""><img src="./assets/images/Request-Design.png" alt=""></a>
                 </div>
             </div>
-
-
-
-
         </div>
     </footer>
 
@@ -685,7 +683,7 @@
 
   <!--jQuery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+
   <!--Plugin JavaScript file-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
 
