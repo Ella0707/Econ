@@ -35,8 +35,8 @@ function filterBtn() {
     document.getElementById('filterOpen').classList.toggle('open');
 }
 
-function headerBtn() {
-    document.getElementById('headerBtn').classList.toggle('open');
+function headerBurger() {
+    document.getElementById('headerBurger').classList.toggle('open');
     document.getElementById('menuMobile').classList.toggle('open');
 }
 
