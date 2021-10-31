@@ -20,10 +20,11 @@
     }
 
     &__logo {
-        margin-bottom: 6.8rem;
+        margin-bottom: 5.8rem;
 
         @media (max-width: 48em) {
             width: 56rem;
+            margin-bottom: 9rem;
         }
     }
 
@@ -51,7 +52,8 @@
 
         @media (max-width: 48em) {
             font-size: 3.6rem;
-            margin-bottom: 3.8rem;
+            margin-bottom: 5.8rem;
+            padding-left: 7rem;
         }
 
         &::before {
@@ -66,6 +68,13 @@
             position: absolute;
             top: -0.5rem;
             left: 0;
+
+            @media (max-width: 48em) {
+                width: 4rem;
+                height: 4rem;
+                top: -1.5rem;
+                left: 1rem;
+            }
         }
     }
 
@@ -92,13 +101,13 @@
         @media (max-width: 48em) {
             font-size: 3.6rem;
             margin-bottom: 8rem;
+            padding-left: 7rem;
         }
 
         &::before {
             content: "";
             background-image: url(./../images/footer-mail.png);
             background-repeat: no-repeat;
-            background-size: contain;
             background-position: center;
             width: 3rem;
             height: 3rem;
@@ -106,6 +115,13 @@
             position: absolute;
             top: -0.5rem;
             left: 0;
+
+            @media (max-width: 48em) {
+                width: 4rem;
+                height: 4rem;
+                top: -0.5rem;
+                left: 1rem;
+            }
         }
     }
 
@@ -138,7 +154,6 @@
                 content: "";
                 background-image: url(./../images/vk.png);
                 background-repeat: no-repeat;
-                background-size: contain;
                 background-position: center;
                 width: 3rem;
                 height: 3rem;
@@ -154,7 +169,6 @@
                 content: "";
                 background-image: url(./../images/inst.png);
                 background-repeat: no-repeat;
-                background-size: contain;
                 background-position: center;
                 width: 3rem;
                 height: 3rem;
@@ -186,7 +200,7 @@
         flex-direction: column;
 
         @media (max-width: 48em) {
-            margin-bottom: 7.2rem;
+            margin-bottom: 10.2rem;
         }
     }
 
@@ -210,7 +224,7 @@
 
         @media (max-width: 48em) {
             font-size: 3.2rem;
-            margin-bottom: 2.2rem;
+            margin-bottom: 3.2rem;
         }
     }
 

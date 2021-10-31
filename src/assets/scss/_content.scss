@@ -8,10 +8,10 @@
         display: flex;
         justify-content: space-between;
 
-        margin-bottom: 19rem;
+        margin-bottom: 17rem;
 
         @media (max-width: 48em) {
-            margin-bottom: 24rem;
+            margin-bottom: 28rem;
         }
 }
 
@@ -23,6 +23,10 @@
     &__product-wrap {
         display: flex;
         flex-wrap: wrap;
+
+        @media (max-width: 48em) {
+            margin-bottom: 5rem;
+        }
     }
 
     &__breadcrumb {
@@ -62,11 +66,13 @@
 
     &__heading {
         font-size: 4rem;
+        font-weight: 600;
 
-        margin-bottom: 6.2rem;
+        margin-bottom: 7rem;
 
         @media (max-width: 48em) {
             margin-bottom: 3rem;
+            font-size: 5rem;
         }
     }
 
@@ -95,7 +101,7 @@
 
         @media (max-width: 48em) {
             display: flex;
-            margin-bottom: 3rem;
+            margin-bottom: 7rem;
             align-items: flex-end;
         }
     }

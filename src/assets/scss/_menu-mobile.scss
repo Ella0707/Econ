@@ -1,0 +1,155 @@
+
+.menu-mobile {
+
+    height: min-content;
+    
+    @media (max-width: 48em) {
+
+        padding: 3.6rem;
+    
+    &__logo-img {
+        width: 37.2rem;
+
+        margin-bottom: 14.8rem;
+    }
+
+    &__dropdown {
+        display: flex;
+        flex-direction: column;
+        
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url(./../images/menu-mobile-heating.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 4.2rem;
+            height: 2.4rem;
+
+            position: absolute;
+            top: 0.6rem;
+            left: 1rem;
+        }
+
+        &::after {
+            content: "";
+            background-image: url(./../images/arrow-down.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 2rem;
+            height: 2.4rem;
+
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+        }
+    }
+
+    &__dropbtn {
+        font-weight: 600;
+        font-size: 3.2rem;
+
+        margin-bottom: 4.6rem;
+        padding-left: 8rem;
+    }
+
+
+    &__dropdown-content {
+        display: none;
+
+        &.open {
+            display: block;
+
+            margin-bottom: 8.6rem;
+        }
+    }
+
+    &__select {
+        font-size: 3rem;
+    }
+
+    &__select-item {
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__list-top {
+        font-size: 3.2rem;
+
+        margin-bottom: 8.6rem;
+    }
+
+    &__item-top {
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
+
+        padding: 4.6rem 0 4.6rem 8rem;
+
+        &:nth-child(1) {
+       
+            position: relative;
+
+            &::before {
+                content: "";
+                background-image: url(./../images/menu-mobile-tap.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 4.2rem;
+                height: 2.4rem;
+    
+                position: absolute;
+                left: 2rem;
+            }
+        }
+
+        &:nth-child(2) {
+       
+            position: relative;
+
+            &::before {
+                content: "";
+                background-image: url(./../images/menu-mobile-hand-sanitizer.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 4.2rem;
+                height: 2.4rem;
+    
+                position: absolute;
+                left: 2rem;
+                top: 7rem;
+            }
+        }
+
+        &:nth-child(3) {
+       
+            position: relative;
+
+            &::before {
+                content: "";
+                background-image: url(./../images/menu-mobile-shower.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 4.2rem;
+                height: 2.4rem;
+    
+                position: absolute;
+                left: 2rem;
+                top: 5.5rem;
+            }
+        }
+    }
+
+    &__list {
+        font-size: 3.2rem;
+        margin-bottom: 14.8rem;
+    }
+
+    &__item {
+        &:not(:last-child){
+        margin-bottom: 6rem;
+    }
+    }
+}
+}

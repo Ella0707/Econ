@@ -1,16 +1,19 @@
 .header {
-    
+
     background-color: #ffffff;
-    
+
     &__inner {
         padding-top: 2rem;
+
+        @media (max-width: 48em) {
+            padding-top: 3rem;
+        }
     }
 
     &__mobile-list {
         display: none;
 
         @media (max-width: 48em) {
-            display: block;
             display: flex;
         }
     }
@@ -25,20 +28,80 @@
         justify-content: space-between;
         align-items: center;
 
-        margin-bottom: 5.5rem;
+        margin-bottom: 5rem;
+
+        @media (max-width: 48em) {
+           height: 14.2rem;
+           padding-bottom: 6rem;
+        }
     }
 
-    &__btn {
+    &__btn-img {
         @media (max-width: 48em) {
-            width: 5rem;
-            position: relative;
+            display: none;
+        }
+    }
+
+    &__btn-burger {
+        display: none;
+
+        @media (max-width: 48em) {
+            display: flex;
+            position: absolute;
             z-index: 9999;
+        }
+
+        &.open {
+            right: 0;
+            transform:  translate(-100%, 2rem);
+        }
+    }
+
+    &__btn-burger span {
+
+        display: flex;
+        justify-content: center;
+
+        z-index: 9999;
+        position: relative;
+
+        width: 4rem;
+        height: 0.2rem;
+
+        background-color: #2B2E34;
+
+        transition: 0.3s;
+
+        &::after {
+            content: "";
+            width: 4rem;
+            height: 0.2rem;
+            background-color: #2B2E34;
+            transform: translateY(-8px);
+        }
+
+        &::before {
+            content: "";
+            width: 4rem;
+            height: 0.2rem;
+            background-color: #2B2E34;
+            position: absolute;
+            transform: translateY(8px);
+        }
+    }
+
+    &__logo-img-mobile {
+        display: none;
+
+        @media (max-width: 48em) {
+            display: block;
+            width: 37.2rem;
         }
     }
 
     &__logo-img {
         @media (max-width: 48em) {
-            width: 37.2rem;
+            display: none;
         }
     }
 
@@ -86,12 +149,13 @@
             position: absolute;
             left: 0;
             right: 0;
-            transform: translate(0px, 40%);
+            transform: translate(0px, 65%);
         }
     }
 
     &__personal-list {
         display: flex;
+
         @media (max-width: 48em) {
             display: none;
         }
@@ -202,8 +266,8 @@
         }
     }
 
-                                          // мобильное меню
-    
+    // мобильное меню
+
     &__menu-mobile {
         display: none;
 
@@ -212,11 +276,12 @@
             position: absolute;
             z-index: 9;
 
-            background-color: #E5E5E5;
+            background-color: #FFFFFF;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
+            overflow: hidden;
         }
     }
 }
